@@ -1,0 +1,41 @@
+{
+  "name": "FlowCraft - Sequential Approval & Signature PWA",
+  "short_name": "FlowCraft",
+  "description": "Progressive Web App for sequential multi-stage form approvals and digital sign-offs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f19",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/flowcraft-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Request",
+      "short_name": "New Form",
+      "description": "Initiate a new approval request",
+      "url": "/#new",
+      "icons": [{ "src": "/flowcraft-logo.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "Pending Inbox",
+      "short_name": "Inbox",
+      "description": "View requests awaiting your signature",
+      "url": "/#inbox",
+      "icons": [{ "src": "/flowcraft-logo.png", "sizes": "512x512" }]
+    }
+  ]
+}
